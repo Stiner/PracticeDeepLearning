@@ -1,5 +1,6 @@
 .cache/
 .upm/
+.vs/
 venv/
 .config/
 **/__pycache__
