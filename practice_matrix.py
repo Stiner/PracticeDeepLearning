@@ -1,6 +1,6 @@
 import numpy as np
 
-if __name__ == "__main":
+def main():
     mat1 = np.array(
         [
             [2],
