@@ -25,10 +25,10 @@
     <Compile Include="dataset\__init__.py" />
     <Compile Include="funcs.py" />
     <Compile Include="main.py" />
-    <Compile Include="practice_ANN_nmist.py" />
     <Compile Include="practice_matrix.py" />
-    <Compile Include="practice_ANN.py" />
     <Compile Include="practice_mnist.py" />
+    <Compile Include="practice_neuralnet.py" />
+    <Compile Include="practice_neuralnet_mnist.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dataset\" />
