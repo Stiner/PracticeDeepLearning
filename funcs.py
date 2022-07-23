@@ -1,4 +1,9 @@
 import numpy as np
+from PIL import Image
+
+def img_show(img):
+    pil_img = Image.fromarray(np.uint8(img))
+    pil_img.show()
 
 def AND(x1, x2):
     x = np.array([x1, x2])      # x
