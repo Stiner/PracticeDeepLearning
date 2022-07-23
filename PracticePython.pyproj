@@ -43,6 +43,7 @@
     <Content Include="dataset\train-images-idx3-ubyte.gz" />
     <Content Include="dataset\train-labels-idx1-ubyte.gz" />
     <Content Include="README.md" />
+    <Content Include="sample_weight.pkl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
