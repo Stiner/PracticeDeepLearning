@@ -29,10 +29,18 @@ def main():
     #        accuracy_cnt += 1
 
     ## 이미지 10000장을 한번에 계산
-    y = predict(network, x) ## y.shape = (10000, 10)
-    for i in range(len(y)):
-        p = np.argmax(y[i]) ## 10개의 확율값 중 가장 높은값의 인덱스(이미지 내용이 인덱스의 값일 확율)
-        accuracy_cnt += np.sum(p == t[i])
+    #y = predict(network, x) ## y.shape = (10000, 10)
+    #for i in range(len(y)):
+    #    p = np.argmax(y[i]) ## 10개의 확율값 중 가장 높은값의 인덱스(이미지 내용이 인덱스의 값일 확율)
+    #    accuracy_cnt += np.sum(p == t[i])
+
+    ## 이미지 100장씩 나누어서 계산
+    batch_size = 100
+    for i in range(0, len(x), batch_size):
+        x_batch = x[i:i+batch_size]
+        y_batch = predict(network, x_batch)
+        p = np.argmax(y_batch, axis=1)
+        accuracy_cnt += np.sum(p == t[i:i+batch_size])
 
     print("Accuracy:" + str(float(accuracy_cnt) / len(x)))
 
