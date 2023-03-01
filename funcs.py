@@ -1,4 +1,4 @@
-import numpy as np
+﻿import numpy as np
 from PIL import Image
 
 def img_show(img):

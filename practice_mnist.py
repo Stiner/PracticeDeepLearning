@@ -17,7 +17,7 @@ def main():
     print(label) # 5
 
     print(img.shape)            # (784, )
-    img = img.reshape(28, 28)   # ¿ø·¡ ÀÌ¹ÌÁöÀÇ ¸ğ¾çÀ¸·Î º¯Çü
+    img = img.reshape(28, 28)   # ì›ë˜ ì´ë¯¸ì§€ì˜ ëª¨ì–‘ìœ¼ë¡œ ë³€í˜•
     print(img.shape)            # (28, 28)
 
-    img_show(img)               # ÀÌ¹ÌÁö ºä¾î ½ÇÇà
+    img_show(img)               # ì´ë¯¸ì§€ ë·°ì–´ ì‹¤í–‰
