@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PracticePython", "PracticePython.pyproj", "{2EB14641-C30E-4ED6-AB47-DDBDD42F3333}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PracticeDeepLearning", "PracticeDeepLearning.pyproj", "{2EB14641-C30E-4ED6-AB47-DDBDD42F3333}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

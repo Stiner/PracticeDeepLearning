@@ -9,8 +9,8 @@
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PracticePython</Name>
-    <RootNamespace>PracticePython</RootNamespace>
+    <Name>PracticeDeepLearning</Name>
+    <RootNamespace>PracticeDeepLearning</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
